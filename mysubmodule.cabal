@@ -1,0 +1,15 @@
+cabal-version:       >=1.10
+
+name:                mysubmodule
+version:             0.1.0.0
+license-file:        LICENSE
+author:              Alfredo Di Napoli
+maintainer:          alfredo.dinapoli@gmail.com
+build-type:          Simple
+extra-source-files:  CHANGELOG.md
+
+library
+  exposed-modules:     MySubmodule
+  build-depends:       base >=4.12 && <4.13
+  hs-source-dirs:      .
+  default-language:    Haskell2010
